@@ -50,7 +50,7 @@ export function AIInsightsCard({ expenses, budget, savingsGoals }: AIInsightsCar
   };
 
   return (
-    <Card className="h-full flex flex-col">
+    <Card className="flex flex-col">
       <CardHeader>
         <CardTitle>AI Financial Insights</CardTitle>
         <CardDescription>Get personalized advice based on your activity.</CardDescription>

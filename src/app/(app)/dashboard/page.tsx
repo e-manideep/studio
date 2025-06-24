@@ -3,10 +3,10 @@
 import { useAppContext } from '@/hooks/useAppContext';
 import { KeyMetricsCard } from '@/components/dashboard/KeyMetricsCard';
 import { Charts } from '@/components/dashboard/Charts';
-import { AIInsightsCard } from '@/components/dashboard/AIInsightsCard';
+import { AssistantPanel } from '@/components/dashboard/AssistantPanel';
 
 export default function DashboardPage() {
-  const { expenses, budget, savingsGoals } = useAppContext();
+  const { expenses, budget } = useAppContext();
 
   return (
     <div className="container max-w-screen-2xl mx-auto p-4 md:p-8">
@@ -19,7 +19,7 @@ export default function DashboardPage() {
           <Charts expenses={expenses} />
         </div>
         <div className="lg:col-span-1">
-          <AIInsightsCard expenses={expenses} budget={budget} savingsGoals={savingsGoals} />
+          <AssistantPanel />
         </div>
       </div>
     </div>

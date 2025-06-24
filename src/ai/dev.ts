@@ -3,3 +3,4 @@ config();
 
 import '@/ai/flows/suggest-expense-category.ts';
 import '@/ai/flows/provide-financial-insights.ts';
+import '@/ai/flows/financial-chat.ts';
