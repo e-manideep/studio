@@ -37,7 +37,7 @@ export function ExpenseList() {
         <CardDescription>A list of your recent expenses.</CardDescription>
       </CardHeader>
       <CardContent>
-        <ScrollArea className="h-[450px]">
+        <ScrollArea className="h-[580px]">
           <Table>
             <TableHeader>
               <TableRow>

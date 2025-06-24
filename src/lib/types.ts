@@ -12,6 +12,6 @@ export interface SavingsGoal {
   targetAmount: number;
 }
 
-export type Category = 'Food' | 'Shopping' | 'Travel' | 'Bills' | 'Entertainment' | 'Others';
+export const categories = ['Food', 'Shopping', 'Travel', 'Bills', 'Entertainment', 'Others'] as const;
 
-export const categories: Category[] = ['Food', 'Shopping', 'Travel', 'Bills', 'Entertainment', 'Others'];
+export type Category = (typeof categories)[number];
