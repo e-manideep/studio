@@ -3,7 +3,7 @@
 Welcome to **Aura Finance**, your modern, interactive, and AI-powered assistant for mastering personal finances. This Next.js application provides a comprehensive suite of tools to track expenses, plan budgets, and gain intelligent insights to achieve your financial goals.
 
 <p align="center">
-  <img alt="Aura Finance Dashboard Preview" src="image.png" width="800">
+  <img alt="Aura Finance Dashboard Preview" src="Screenshot (311).png" width="800">
   <br>
   <em>A preview of the main dashboard.</em>
 </p>
